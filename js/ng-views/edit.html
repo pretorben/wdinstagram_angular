@@ -1,0 +1,9 @@
+<h2>Edit Entry</h2>
+
+<form>
+  <input type="text" value="vm.entry.author" data-ng-model="vm.entry.author" />
+  <input type="text" value="vm.entry.photo_url" data-ng-model="vm.entry.photo_url" />
+  <textarea type="text" value="vm.entry.body" data-ng-model="vm.entry.body"></textarea>
+  <button type="button" data-ng-click="vm.update()">Update Entry</button>
+  <button type="button" data-ng-click="vm.destroy()">Delete Entry</button>
+</form>

@@ -1,0 +1,8 @@
+<a data-ui-sref="entryNew">New Entry</a>
+
+<h2>All Entries</h2>
+
+<div data-ng-repeat="entry in vm.entries">
+  <a data-ui-sref="entryShow({id: entry.id})">{{entry.author}} - {{entry.body}}</a>
+  <a data-ui-sref="entryEdit({id: entry.id})">Edit Entry</a>
+</div>
